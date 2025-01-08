@@ -1,0 +1,261 @@
+*{
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+      font-family: 'Roboto', 'sans-serif';
+}
+
+.main-container-1{
+      width: 100vw;
+      height: 90vh;
+      
+      display: flex;
+      background-color: #f2f4f8;
+}
+
+.main-container-2{
+      width: 100vw;
+      
+}
+
+.function-of-facebook{
+      height: 100%;
+      width: 60vw;
+      
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: flex-end;
+}
+
+.login-parent-container{
+      height: 100%;
+      width: 60vw;
+      
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+}
+
+.facebook-logo{
+      
+      height: 11vh;
+      width: 74%;
+}
+
+.facebook-logo img{
+      width: 20rem;
+}
+
+.facebook-func{
+      
+      height: 13vh;
+      width: 70%;
+      font-weight: 400;
+      font-size: 1.8rem;
+}
+
+.login-1{
+      height: 40vh;
+      width: 50%;
+      background: white;
+      border-radius: 8px;
+      box-shadow: 
+      3px 0 5px #dcdedf, 
+      -3px 0 5px #dcdedf, 
+      0 3px 5px #dcdedf, 
+      0 -3px 5px #dcdedf;
+      padding: 15px;
+}
+
+.login-2{
+      width: 90%;
+      height: 5rem;
+      
+      display: flex;
+      justify-content: center;
+      align-items: center;
+}
+
+.login-2-first-child:hover{
+      text-decoration: underline;
+}
+
+.login-2-first-child{
+      font-weight: bolder;
+}
+
+.login-child-1{
+      width: 100%;
+      height: 77%;
+      border-bottom: 1px solid gainsboro;
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      flex-direction: column;
+}
+
+.login-child-2{
+      width: 100%;
+      height: 30%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+}
+
+#email{
+      width: 100%;
+      height: 23%;
+      padding: 10px 1rem;
+      border: 1px solid gainsboro;
+      border-radius: 4px;
+}
+
+#password{
+      width: 100%;
+      height: 23%;
+      padding: 10px 1rem;
+      border: 1px solid gainsboro;
+      border-radius: 4px;
+}
+
+#password::placeholder{
+      font-size: 18px;
+      color: grey;
+}
+
+#email::placeholder{
+      font-size: 18px;
+      color: grey;
+}
+
+.log-in{
+    background-color: #0866ff;
+    border: none;
+    border-radius: 6px;
+    font-size: 20px;
+    line-height: 48px;
+    padding: 0 16px;
+    width: 100%;
+    vertical-align: middle;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.forgot-pass{
+      font-size: 14px;
+      padding: 12px 0;
+}
+
+.create-new-acc{
+      background-color: #42b72a;
+      width: 55%;
+      height: 3rem;
+      border: none;
+      border-radius: 6px;
+      font-size: 20px;
+      line-height: 48px;
+      padding: 0 16px;
+      vertical-align: middle;
+      text-align: center;
+      color: white;
+      font-weight: bold;
+      font-size: 18px;
+}
+
+.create-new-acc:hover{
+      background-color: #36a420;
+      border-color: #36a420
+}
+
+@media (max-width: 470px) {
+      .main-container-1{
+            flex-direction: column;
+      }
+
+      .function-of-facebook{
+            width: 100vw;
+            height: 35%;
+            align-items: center;
+      }
+
+      .facebook-logo{
+            width: 100%;
+      }
+
+      .facebook-func {
+            padding: 0 2rem;
+            width: 100%;
+      }
+
+      .login-parent-container {
+            width: 100vw;
+      }
+
+      .login-1{
+            width: 80%;
+     }
+
+     .create-new-acc{
+            width: 65%;
+     }
+}
+
+.footer {
+      padding: 20px;
+      background-color: white;
+      text-align: center;
+      font-size: 14px;
+      color: #555;
+  }
+  
+  .footer-languages,
+  .footer-links {
+      margin: 10px 0;
+  }
+  
+  .footer-languages a,
+  .footer-links a {
+      color: #555;
+      text-decoration: none;
+      margin: 0 5px;
+  }
+  
+  .footer-languages a:hover,
+  .footer-links a:hover {
+      text-decoration: underline;
+  }
+  
+  .footer-languages {
+      display: inline-block;
+  }
+  
+  .more-languages {
+      background-color: transparent;
+      border: none;
+      font-size: 16px;
+      cursor: pointer;
+      color: #555;
+  }
+  
+  .more-languages:hover {
+      text-decoration: underline;
+  }
+  
+  .footer-links {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+  }
+  
+  .footer-links a {
+      margin: 5px 10px;
+  }
+  
+  .footer-meta {
+      margin-top: 10px;
+      color: #777;
+  }
